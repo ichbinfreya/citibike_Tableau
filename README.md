@@ -7,7 +7,7 @@ Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It p
 3. **Data Consistency**: Verified columns like "start time," "end time," "station ID," and "user type."
 
 ## Tableau
-Please access [CitiBike Tableau Dashboard](https://public.tableau.com/app/profile/freya.huang/viz/MyFirstViz_17270175292750/Top5StationsforTripStarts?publish=yes)
+Please access [CitiBike Tableau Dashboard](https://public.tableau.com/app/profile/freya.huang/viz/MyFirstViz_17273497384960/UserBehaviourAnalysis)
 ### What is Tableau?
 Tableau is a powerful data visualization tool used for converting raw data into an understandable format through interactive and shareable dashboards. It allows users to create visual representations of data, such as graphs, charts, and maps, without requiring any technical programming knowledge.
 
