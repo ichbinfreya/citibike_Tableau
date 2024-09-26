@@ -1,39 +1,55 @@
-# CitiBike
-What is Citibike?
-Citi Bike is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City and Hoboken, New Jersey. Named after lead sponsor Citigroup, it was operated by Motivate (formerly Alta Bicycle Share), with former Metropolitan Transportation Authority CEO Jay Walder as chief executive until September 30, 2018, when the company was acquired by Lyft. The system's bikes and stations use technology from Lyft.
+# Introduction
+Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It promotes eco-friendly transportation, reducing CO2 emissions, and provides an alternative mode of commuting. This analysis aims to explore Citi Bike usage patterns, popular stations, and user behavior using Tableau.
 
-Why Citibike is popualar?
-Eco-system, reduce the CO2 emissions
+## Data Cleaning and Transformation
+1. **Data Selection**: Chose recent data from 2018-2019 to ensure consistency.
+2. **Data Preparation**: Cleaned data by removing unnecessary columns, handling missing values, and ensuring consistent data formats.
+3. **Data Consistency**: Verified columns like "start time," "end time," "station ID," and "user type."
 
-System Data can be found in Citibike System Data(https://citibikenyc.com/system-data) 
-Where do Citi Bikers ride? When do they ride? How far do they go? Which stations are most popular? What days of the week are most rides taken on? We've heard all of these questions and more from you, and we're happy to provide the data to help you discover the answers to these questions and more. We invite developers, engineers, statisticians, artists, academics and other interested members of the public to use the data we provide for analysis, development, visualization and whatever else moves you.
+## Tableau Visualizations and Analysis
+### Visualization 1: Total Trips for Both Member & Casual Over Time
+* Insights: Member usage is consistent, while casual usage peaks in summer.
+* Key Finding: Indicates seasonal trends with increased casual usage during warmer months.
 
-# Data Cleaning and Transformation
-Step 1: Selecting and Downloading the Data
-Based on the criteria, here are the detailed steps for choosing the right data files:
-1) Avoid Older Data: Data from 2013-2015 might have outdated formats and could be inconsistent with newer data structures.
-2) Choose Recent Data: Select data from 2018-2019 as they are more recent and likely to have consistent data structures. This will help avoid compatibility issues.
-3) Download 2018-citibike-tripdata.zip folder. These files provide a good range of recent data without exceeding the 1GB limit per file.
-4) Extract the Files: Unzip the downloaded files and ensure you have consistent columns across the CSVs.
+### Visualization 2: Trip Duration by User Type
+* Insights: Members have shorter, more frequent trips compared to casual users.
+* Key Finding: Members use the service for commuting, while casual users engage in longer, recreational trips.
 
-Step 2: Preparing the Data
-1) Check Data Consistency: Open the CSV files in Excel or any text editor and ensure columns like "start time," "end time," "station ID," and "user type" are present and consistent.
-2) Clean the Data:
-Remove unnecessary columns that won’t be used in your analysis, such as station name (if you have ID) or redundant information.
-Handle missing or incorrect values. For example, filter out trips with impossible durations or station IDs that don’t exist.
+### Visualization 3: Top 10 Stations for Trip Starts
+* Insights: Hoboken Terminal and Grove St PATH are the busiest stations.
+* Key Finding: These stations are strategic for daily commuters due to their proximity to major transit hubs.
 
+### Visualization 4: Peak Usage Hours
+* Insights: Peak usage occurs during 8-10 AM and 5-7 PM, primarily on weekdays.
+* Key Finding: Reflects commuter behavior with high demand during work hours.
 
-# Tableau
-What is Tableau?
+### Visualization 5: Map Visualization for Station Popularity
+* Insights: Visualizes the distribution of station usage, with key stations like Hoboken Terminal showing high activity.
+* Key Finding: Highlights the need for infrastructure improvements around high-demand areas.
 
-Why Tableau good to use?
-Provide interactive information on the visualization
-freindly for people who is not major in data, aka for the public or everyone
-
-MyFirstViz link[https://public.tableau.com/app/profile/freya.huang/viz/MyFirstViz_17270175292750/CitiBikeStory]
+### Visualization 6: Trip Duration Distribution
+* Insights: Most trips fall within 10-30 minutes, showing the program’s effectiveness for short commutes.
+* Key Finding: Supports the use of bike-sharing for quick, intra-city travel.
 
 
-Visualization Analysis:
-Two most popular and busiest stations of Top 5 stations using in US are Hoboken Terminal - River St & Hudson Pl and Grove St PATH.
-Hoboken Terminal - River St & Hudson Pl in Hoboken (07030) is identified as the most popular station with total trips of 12,029, while Grove St PATH in Jersey City (07302) has the second most popular station, of which the total strips is 11,773 from period June to August 2024. 
-As we can see from the popularity map version, the Hoboken Terminal station is closed to the Hoboken Terminal transportation and the Harbour. And the Grove St is next to the International Finance Center. The popualations or the important economic and tuorism spots can affect the usage of the bike stations. Citizens or employees may choose the nearest station to hire the bike for daily on-off works. Hoboken Teminal is one of the largest Interchange Transport Station in Hoboken region, at the same time, the harbour and beautiful seaview nearby.
+## Dashboard 1: User Behavior Analysis
+* Overview: Focuses on user type, trip duration, and station preferences.
+* Insights:
+** Members use Citi Bike for shorter, frequent trips.
+** Casual users show seasonal peaks, indicating leisure or tourism use.
+* Conclusion: Helps understand user segmentation and tailor marketing or service strategies.
+
+## Dashboard 2: Station and Usage Analysis
+* Overview: Examines station popularity, peak usage times, and spatial distribution.
+* Insights:
+** High demand at Hoboken Terminal and Grove St PATH.
+** Infrastructure improvements or more stations needed in these areas.
+* Conclusion: Provides a basis for operational planning and resource allocation.
+
+# Conclusion
+The analysis provides actionable insights into Citi Bike usage patterns. By understanding user behavior, peak hours, and station popularity, city planners and program managers can make informed decisions to optimize bike distribution, improve infrastructure, and encourage greater adoption of bike-sharing services.
+
+# Recommendations
+1. Infrastructure Expansion: Add more stations near high-demand areas like Hoboken Terminal.
+2. Seasonal Promotions: Target casual users with seasonal promotions during peak months.
+3. Operational Improvements: Enhance bike availability during commute hours at popular stations.
