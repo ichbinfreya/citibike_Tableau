@@ -2,7 +2,7 @@
 Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It promotes eco-friendly transportation, reducing CO2 emissions, and provides an alternative mode of commuting. This analysis aims to explore Citi Bike usage patterns, popular stations, and user behavior using Tableau.
 
 ## Data Cleaning and Transformation
-1. **Data Selection**: Chose recent data from 2018-2019 to ensure consistency.
+1. **Data Selection**: Chose recent data from June to August 2024 to ensure consistency.
 2. **Data Preparation**: Cleaned data by removing unnecessary columns, handling missing values, and ensuring consistent data formats.
 3. **Data Consistency**: Verified columns like "start time," "end time," "station ID," and "user type."
 
@@ -35,15 +35,15 @@ Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It p
 ## Dashboard 1: User Behavior Analysis
 * Overview: Focuses on user type, trip duration, and station preferences.
 * Insights:
-** Members use Citi Bike for shorter, frequent trips.
-** Casual users show seasonal peaks, indicating leisure or tourism use.
+*   Members use Citi Bike for shorter, frequent trips.
+*   Casual users show seasonal peaks, indicating leisure or tourism use.
 * Conclusion: Helps understand user segmentation and tailor marketing or service strategies.
 
 ## Dashboard 2: Station and Usage Analysis
 * Overview: Examines station popularity, peak usage times, and spatial distribution.
 * Insights:
-** High demand at Hoboken Terminal and Grove St PATH.
-** Infrastructure improvements or more stations needed in these areas.
+*   High demand at Hoboken Terminal and Grove St PATH.
+*   Infrastructure improvements or more stations needed in these areas.
 * Conclusion: Provides a basis for operational planning and resource allocation.
 
 # Conclusion
