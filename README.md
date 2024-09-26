@@ -35,15 +35,15 @@ Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It p
 ## Dashboard 1: User Behavior Analysis
 * Overview: Focuses on user type, trip duration, and station preferences.
 * Insights:
-*   Members use Citi Bike for shorter, frequent trips.
-*   Casual users show seasonal peaks, indicating leisure or tourism use.
+  * Members use Citi Bike for shorter, frequent trips.
+  * Casual users show seasonal peaks, indicating leisure or tourism use.
 * Conclusion: Helps understand user segmentation and tailor marketing or service strategies.
 
 ## Dashboard 2: Station and Usage Analysis
 * Overview: Examines station popularity, peak usage times, and spatial distribution.
 * Insights:
-*   High demand at Hoboken Terminal and Grove St PATH.
-*   Infrastructure improvements or more stations needed in these areas.
+  * High demand at Hoboken Terminal and Grove St PATH.
+  * Infrastructure improvements or more stations needed in these areas.
 * Conclusion: Provides a basis for operational planning and resource allocation.
 
 # Conclusion
