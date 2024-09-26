@@ -6,7 +6,21 @@ Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It p
 2. **Data Preparation**: Cleaned data by removing unnecessary columns, handling missing values, and ensuring consistent data formats.
 3. **Data Consistency**: Verified columns like "start time," "end time," "station ID," and "user type."
 
-## Tableau Visualizations and Analysis
+## Tableau
+Please access [CitiBike Tableau Dashboard](https://public.tableau.com/app/profile/freya.huang/viz/MyFirstViz_17270175292750/Top5StationsforTripStarts?publish=yes)
+### What is Tableau?
+Tableau is a powerful data visualization tool used for converting raw data into an understandable format through interactive and shareable dashboards. It allows users to create visual representations of data, such as graphs, charts, and maps, without requiring any technical programming knowledge.
+
+### Advantages of Tableau
+1. Ease of Use: Drag-and-drop interface makes it user-friendly for non-technical users.
+2. Interactive Visualizations: Enables the creation of interactive dashboards that can respond to filters and parameters.
+3. Integration: Easily integrates with various data sources like Excel, SQL, and Google Analytics.
+4. Speed and Efficiency: Quickly transforms large amounts of data into visual insights.
+5. Community and Resources: Offers a wide range of resources and an active user community for support and learning.
+-----------------------------------------------------------------------------------------------------------
+
+# Tableau Visualizations and Analysis
+
 ### Visualization 1: Total Trips for Both Member & Casual Over Time
 * Insights: Member usage is consistent, while casual usage peaks in summer.
 * Key Finding: Indicates seasonal trends with increased casual usage during warmer months.
@@ -15,7 +29,7 @@ Citi Bike is a bicycle-sharing system serving New York City and New Jersey. It p
 * Insights: Members have shorter, more frequent trips compared to casual users.
 * Key Finding: Members use the service for commuting, while casual users engage in longer, recreational trips.
 
-### Visualization 3: Top 10 Stations for Trip Starts
+### Visualization 3: Top 5 Stations for Trip Starts
 * Insights: Hoboken Terminal and Grove St PATH are the busiest stations.
 * Key Finding: These stations are strategic for daily commuters due to their proximity to major transit hubs.
 
